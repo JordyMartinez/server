@@ -14,7 +14,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors());
-
+// edit
 var Mentor = mongoose.model('Mentor',{
 	first_name: String,
 	last_name: String,
